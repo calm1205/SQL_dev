@@ -10,4 +10,4 @@ services:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: dvdrental
     volumes:
-      - $PWD/dvdrental.tar:/volumes/dvdrental.tar
+      - $PWD/dvdrental.tar:/dvdrental.tar

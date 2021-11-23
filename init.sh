@@ -1,2 +1,2 @@
 #!/bin/sh
-pg_restore -U admin -d dvdrental volumes/dvdrental.tar
+pg_restore -U admin -d dvdrental dvdrental.tar\
