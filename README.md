@@ -160,5 +160,7 @@ order by count(film.title) desc;
 ```
 
 inventory テーブルと film テーブルを外部結合しタイトル毎に借りられた件数を取得
+
 件数が 7 件以上のレコードを降順ソートで表示
+
 ※where 句は集計前に実行されてしまうので`having`を活用
