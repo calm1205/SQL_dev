@@ -114,7 +114,7 @@ book_table
 - inner join
   - 積集合
   ```
-  select * from user inner join book on user.book_id = book.id;
+  select * from auther inner join book on auther.book_id = book.id;
   ```
   | id  | name           | book_id | id  | name     |
   | --- | -------------- | ------- | --- | -------- |
@@ -125,7 +125,7 @@ book_table
   - 外部キーを持つテーブルをベースに抽出（外部キーのレコードが存在しなくても取得）
 
   ```
-  select * from user left join book on user.book_id = book.id;
+  select * from auther left join book on auther.book_id = book.id;
   ```
 
   | id  | name           | book_id | id   | name     |
@@ -139,7 +139,7 @@ book_table
   - 外部キーが存在しなくても子テーブルにレコードが存在すれば取得
 
   ```
-  select * from user left join book on user.book_id = book.id;
+  select * from auther left join book on auther.book_id = book.id;
   ```
 
   | id   | name           | book_id | id  | name           |
